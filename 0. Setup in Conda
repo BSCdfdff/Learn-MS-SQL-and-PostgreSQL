@@ -1,0 +1,49 @@
+
+
+
+Using psycopg2
+Psycopg2 is python link
+
+conda install -c conda-forge  postgresql
+
+conda install -c conda-forge  Psycopg2
+
+//Need to install nodejs
+conda install -c conda-forge node
+
+//Install conda and extension
+conda install -c conda-forge jupyterlab=1 jupyter_conda 
+jupyter labextension install jupyterlab_toastify jupyterlab_conda
+
+
+
+Link: how to run postgresql in conda.
+https://gist.github.com/gwangjinkim/f13bf596fefa7db7d31c22efd1627c7a
+
+
+//Setup DB
+
+//Only once
+initdb -D postgres_db
+
+Only above is required - then use psychogp2
+//Only limitattion, is that you cannot o further ad pgadmin use that port
+
+Must exit, or restart machine
+Start Service----
+pg_ctl -D postgres_db -l logfile start
+
+start it
+psql test_db or postgresql
+
+
+Links (Stored Procedure)
+https://carto.com/help/working-with-data/sql-stored-procedures/
+
+At command line
+http://www.yolinux.com/TUTORIALS/LinuxTutorialPostgreSQL.html
+
+Official
+https://www.postgresqltutorial.com/postgresql-create-procedure/
+
+
