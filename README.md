@@ -11,3 +11,6 @@
 #### SQL & Database Design A-Z™: Learn MS SQL Server + PostgreSQL
 https://www.udemy.com/course/sqldatabases/
 
+
+#### The Complete Python/PostgreSQL Course 2.0
+https://www.udemy.com/course/complete-python-postgresql-database-course/?altsc=781502
